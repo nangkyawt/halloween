@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 .background {
-   /* background-color: #FF7518;   */
-   background-color: #4A1C40;
+   background-color: #FF7518;  
 }
 
 
@@ -15,7 +14,7 @@
     font-size: 80px;
     font-family: 'Rubik Wet Paint';
     font-weight: 90;
-    color: #FF7518;
+    color: black;
     padding-right: 10px;
 }
 i{
@@ -52,7 +51,7 @@ h1{
     
 }
 h2{
-    color:whitesmoke;
+    color: black;
     font-family: 'Rubik Wet Paint';
     transform: translateY(-5px);
 
@@ -72,8 +71,8 @@ p {
 
 .glassy-button {
     background: transparent;
-        border: 2px solid #FF7518;
-        color: #FF7518;
+        border: 2px solid white;
+        color: rgb(244, 243, 240);
         font-family: 'Rubik Wet Paint', sans-serif;
         padding: 10px 20px;
         border-radius: 20px;
@@ -106,7 +105,7 @@ p {
 }
 
 .navbar-brand {
-    color: #FF7518;
+    color: black;
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s;
@@ -119,7 +118,7 @@ p {
 }
 
 .nav-item a {
-    color: #FF7518; 
+    color: black; 
     font-weight: 5;
     font-family: 'Rubik Wet Paint', sans-serif;
     text-decoration: none;
@@ -129,7 +128,7 @@ p {
 }
 
 .nav-item a:hover {
-    color: white; 
+    color: rgba(150, 0, 255, 0.8); 
 }
 
 
@@ -142,7 +141,7 @@ p {
 }
 
 .input-group-text {
-    background-color: #FF7518;
+    background-color: white;
     border-radius: 0 20px 20px 0; 
     font-family: 'Rubik Wet Paint', sans-serif;
     cursor: pointer;
@@ -153,20 +152,20 @@ img {
     animation: imgGlow 2s infinite;
 }
 
-/* @keyframes imgGlow {
+@keyframes imgGlow {
     0%, 100% {
-        filter: drop-shadow(0 0 20px rgba(255, 140, 0, 0.8));
+        filter: drop-shadow(0 0 20px rgba(255, 140, 0, 0.8)); /* Darker orange for a subtle glow */
     }
     50% {
-        filter: drop-shadow(0 0 40px rgba(255, 165, 0, 0.5)); 
+        filter: drop-shadow(0 0 40px rgba(255, 165, 0, 0.5)); /* Brighter orange for more intensity */
     }
 }
 @keyframes textGlow {
     0%, 100% {
-        filter: drop-shadow(0 0 20px rgba(255, 140, 0, 0.8)); 
+        filter: drop-shadow(0 0 20px rgba(255, 140, 0, 0.8)); /* Darker orange for a subtle glow */
     }
     50% {
-        filter: drop-shadow(0 0 40px rgba(255, 165, 0, 0.5)); 
+        filter: drop-shadow(0 0 40px rgba(255, 165, 0, 0.5)); /* Brighter orange for more intensity */
     }
-} */
+}
 
